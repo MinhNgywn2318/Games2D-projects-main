@@ -29,23 +29,23 @@ public class choosePlayer {
 
    private void getplayerImage() {
       //player 1
-      up11 =setup("1_up_1");
-      up12 = setup("1_up_2");
-      down11 = setup("1_down_1");
-      down12 = setup("1_down_2");
-      left11 = setup("1_left_1");
-      left12 = setup("1_left_2");
-      right11 = setup("1_right_1");
-      right12 = setup("1_right_2");
+      up11 = setup("Lava_up_1");
+      up12 = setup("Lava_up_2");
+      down11 = setup("Lava_down_1");
+      down12 = setup("Lava_down_2");
+      left11 = setup("Lava_left_1");
+      left12 = setup("Lava_left_2");
+      right11 = setup("Lava_right_1");
+      right12 = setup("Lava_right_2");
       // player2
-      up21 = setup("2_up_1");
-      up22 = setup("2_up_2");
-      down21 = setup("2_down_1");
-      down22 = setup("2_down_2");
-      left21 = setup("2_left_1");
-      left22 = setup("2_left_2");
-      right21 = setup("2_right_1");
-      right22 = setup("2_right_2");
+      up21 = setup("Water_up_1");
+      up22 = setup("Water_up_2");
+      down21 = setup("Water_down_1");
+      down22 = setup("Water_down_2");
+      left21 = setup("Water_left_1");
+      left22 = setup("Water_left_2");
+      right21 = setup("Water_right_1");
+      right22 = setup("Water_right_2");
    }
    public BufferedImage setup(String imageName) {
       tools Utool = new tools();
