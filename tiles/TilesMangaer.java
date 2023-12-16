@@ -83,6 +83,9 @@ public class TilesMangaer extends Tiles {
             setup(24,"24. Lake_7", true);
             setup(25,"25. Lake_8", true);
             setup(26,"26. Lake_9", true);
+            setup(27,"27. Ground_bot", false);
+            setup(28,"28. Ground_top", false);
+            setup(29,"29. Lake_10", true);
             
 
         }
