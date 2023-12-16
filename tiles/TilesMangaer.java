@@ -22,7 +22,7 @@ public class TilesMangaer extends Tiles {
 
     public TilesMangaer(GamePanel gp) {
         this.gp = gp;
-        tile = new Tiles[20];
+        tile = new Tiles[40];
         mapTileNumber = new int[gp.maxWorldCol][gp.maxWorldRow];
         getImage();
         loadMap();
@@ -80,8 +80,9 @@ public class TilesMangaer extends Tiles {
             setup(21,"21. Lake_4", true);
             setup(22,"22. Lake_5", true);
             setup(23,"23. Lake_6", true);
-            setup(23,"24. Lake_7", true);
-            setup(23,"25. Lake_8", true);
+            setup(24,"24. Lake_7", true);
+            setup(25,"25. Lake_8", true);
+            setup(26,"26. Lake_9", true);
             
 
         }
