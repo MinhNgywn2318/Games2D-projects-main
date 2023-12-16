@@ -56,18 +56,32 @@ public class TilesMangaer extends Tiles {
     }
 
     public void getImage() {
-            setup(0,"0.grass", false);
-            setup(1,"1.sand", false);
-            setup(2,"2.earth", false);
-            setup(3,"3.wall", true);
-            setup(4,"4.tree", true);
-            setup(5,"5.lava", true );
-            setup(6,"6.water", false) ;//lava.collison =false;
-            setup(7,"7.squid", true) ;//lava.collison =false;
-            setup(8,"8.tree2", true);
-            setup(9,"9.tree3", true);
-            setup(10,"90.tree4", true);
-            setup(11,"91.duck", true);
+            setup(0,"0. Grass", false);
+            setup(1,"1. Sand", false);
+            setup(2,"2. Ground", false);
+            setup(3,"3. Wall", true);
+            setup(4,"4. Tree", true);
+            setup(5,"5. Lava", true );
+            setup(6,"6. Water", false) ;//lava.collison =false;
+            setup(7,"7. Squirrel", true) ;//lava.collison =false;
+            setup(8,"8. Tree_2", true);
+            setup(9,"9. Flower3", true);
+            setup(10,"10. Flower1", true);
+            setup(11,"11. Mushroom", true);
+            setup(12,"12. Ground_bot_left", false);
+            setup(13,"13. Ground_top_left", false);
+            setup(14,"14. Ground_top_right", false);
+            setup(15,"15. Ground_bot_right", false);
+            setup(16,"16. Ground_left", false);
+            setup(17,"17. Ground_right", false);
+            setup(18,"18. Lake_1", true);
+            setup(19,"19. Lake_2", true);
+            setup(20,"20. Lake_3", true);
+            setup(21,"21. Lake_4", true);
+            setup(22,"22. Lake_5", true);
+            setup(23,"23. Lake_6", true);
+            setup(23,"24. Lake_7", true);
+            setup(23,"25. Lake_8", true);
             
 
         }
