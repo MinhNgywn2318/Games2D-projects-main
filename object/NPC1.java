@@ -2,11 +2,11 @@ package object;
 
 import javax.imageio.ImageIO;
 
-public class oldman extends SuperObject{
-    public oldman(){
-        name = "oldman";
+public class NPC1 extends SuperObject{
+    public NPC1(){
+        name = "NPC1";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("/picture/oldman.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("/picture/NPC_1.png"));
         } catch (Exception e) {
             e.printStackTrace();
         } 
