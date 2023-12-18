@@ -103,7 +103,7 @@ public class object_set {
         gp.object[21].worldX = 35*gp.tileSize;
         gp.object[21].worldY = 51*gp.tileSize;
 
-        gp.object[22] = new oldman();//witch
+        gp.object[22] = new NPC1();//witch
         gp.object[22].worldX = 83*gp.tileSize;
         gp.object[22].worldY = 44*gp.tileSize;
 
@@ -143,7 +143,7 @@ public class object_set {
         gp.object[31].worldX = 34*gp.tileSize;
         gp.object[31].worldY = 33*gp.tileSize;
 
-        gp.object[32] = new oldman();
+        gp.object[32] = new NPC1();
         gp.object[32].worldX = 28*gp.tileSize;
         gp.object[32].worldY = 27*gp.tileSize;
 
