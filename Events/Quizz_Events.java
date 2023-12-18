@@ -32,7 +32,7 @@ public class Quizz_Events extends SuperEvent {
             Key1();
             isDoll = false;
         }
-        if (objectName == "monster") {
+        if (objectName == "NPC3") {
             if (getObjectIndex() == 35) {
                 announce("Very good. Maybe see you later");
                 nextState(gp.playState);
@@ -57,11 +57,11 @@ public class Quizz_Events extends SuperEvent {
             }
         } else if (objectName == "doll") {
             if (Keys() == 0) {
-                announce("Wrong. Here is suprised for you");
+                announce("Wrong. Here is surprised for you");
                 setTeleport(52, 29);
             }
             if (Keys() == 1) {
-                announce("Wrong and go away. I will take your key as punnish");
+                announce("Wrong and go away. I will take your key as punish");
                 loseKey();
                 setTeleport(52, 29);
             }
@@ -69,7 +69,7 @@ public class Quizz_Events extends SuperEvent {
         } else if (getObjectIndex() == 13 || getObjectIndex() == 14) {
             announce("Wrong.");
             setTeleport(15, 81);
-        } else if (objectName == "monster") {
+        } else if (objectName == "NPC3") {
             if (getObjectIndex() == 35) {
                 if (Keys() > 1 || (Keys() == 1 && (gp.object[31] != null || gp.object[29] != null))) {
                     announce("Wrong. You have a lot of keys, I will take your key.");
@@ -81,7 +81,7 @@ public class Quizz_Events extends SuperEvent {
 
                 } else if (Keys() == 0) {
                     if (player.speed == 4) {
-                        announce("Wrong. Feel my  super power....");
+                        announce("Wrong. Feel my  superpower....");
                         nextState(gp.playState);
                         setTeleport(22, 29);
                         ModeSpeed(-1);
@@ -95,7 +95,7 @@ public class Quizz_Events extends SuperEvent {
             }
 
             else {
-                announce("Wrong. You can not pass me. Here is your punnish");
+                announce("Wrong. You can not pass me. Here is your punish");
                 setTeleport(44, 71);
                 nextState(gp.playState);
             }
