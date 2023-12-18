@@ -82,7 +82,7 @@ public class pickObjects extends SuperEvent {
         if (index == 4) {
             teleport(59, 8);
             clear();
-        } else if (objectName == "prince") {
+        } else if (objectName == "princess") {
             if (index == 5) {
                 announce("Victory");
                 gp.stopMusic();
