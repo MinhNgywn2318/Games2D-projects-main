@@ -12,7 +12,7 @@ public class pickObjects extends SuperEvent {
     private int x;
     private int y;
     private boolean haveToothpaste = false;
-    private oldman oldman =  new oldman();
+    private NPC1 NPC1 =  new NPC1();
 
     public pickObjects() {
     }
@@ -205,8 +205,8 @@ public class pickObjects extends SuperEvent {
                 teleport(14, 62, "down");
             }
 
-        } else if (objectName == "oldman"&&player.direction == "right") {
-            oldman.set(this,index);
+        } else if (objectName == "NPC1"&&player.direction == "right") {
+            NPC1.set(this,index);
         } else if (objectName == "doll") {
             if (isDoll == true) {
                 gp.setGamestate( gp.quizzState);
