@@ -120,7 +120,7 @@ public class pickObjects extends SuperEvent {
                 clear();
             }
             if (index == 38) {
-                if ((Keys() == 1||(Keys()==0)&&(gp.object[31]==null||gp.object[29]==null))&&!isMonster) {
+                if ((Keys() == 1||(Keys()==0)&&(gp.object[31]==null||gp.object[29]==null))&&!isNPC3) {
                     if (player.speed == 3) {
                         announce("You got a key and buff up");
                         gp.playSE("powerUp");  
@@ -213,8 +213,8 @@ public class pickObjects extends SuperEvent {
             } else if (isDoll == false) {
                 announce("I can not help you anymore.");
             }
-        } else if (objectName == "monster") {
-            announce("Hello,You have to answer my question to pass me");
+        } else if (objectName == "NPC3") {
+            announce("Hello, you have to answer my question to pass me");
             nextState(gp.quizzState);
         } else if (objectName == "apple") {
             if (index == 36) {
