@@ -29,7 +29,7 @@ public class object_set {
         gp.object[4].worldX = 71*gp.tileSize;
         gp.object[4].worldY = 8*gp.tileSize;
 
-        gp.object[5] = new prince ();
+        gp.object[5] = new princess ();
         gp.object[5].worldX = 81*gp.tileSize;
         gp.object[5].worldY = 67*gp.tileSize;
 
@@ -111,7 +111,7 @@ public class object_set {
         gp.object[23].worldX = 63*gp.tileSize;
         gp.object[23].worldY = 16*gp.tileSize;
 
-        gp.object[24] = new prince();
+        gp.object[24] = new princess();
         gp.object[24].worldX = 77*gp.tileSize;
         gp.object[24].worldY = 8*gp.tileSize;
 
@@ -127,7 +127,7 @@ public class object_set {
         gp.object[27].worldX = 77*gp.tileSize;
         gp.object[27].worldY = 28*gp.tileSize;
 
-        gp.object[28] = new monster();//66 13
+        gp.object[28] = new NPC3();//66 13
         gp.object[28].worldX = 89*gp.tileSize;
         gp.object[28].worldY = 62*gp.tileSize;
 
@@ -156,7 +156,7 @@ public class object_set {
         gp.object[34].worldY = 29*gp.tileSize;
 
         
-        gp.object[35] = new monster();
+        gp.object[35] = new NPC3();
         gp.object[35].worldX = 44*gp.tileSize;
         gp.object[35].worldY = 31*gp.tileSize;
 
