@@ -7,7 +7,7 @@ public class apple extends SuperObject {
     public apple(){
         name = "apple";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("/picture/object/apple.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("/picture/object/Apple_1.png"));
         } catch (Exception e) {
             e.printStackTrace();
         }
