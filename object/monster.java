@@ -4,8 +4,8 @@ import javax.imageio.ImageIO;
 public class monster extends SuperObject {
     GamePanel gp;
 
-    public NPC3(){
-        name = "NPC3";
+    public monster(){
+        name = "monster";
         try {
             image = ImageIO.read(getClass().getResourceAsStream("/picture/object/NPC_3.png"));
         } catch (Exception e) {
