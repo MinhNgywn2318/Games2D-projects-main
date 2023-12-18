@@ -27,10 +27,10 @@ public class Quizz_Events extends SuperEvent {
 
             }
         }
-        if (objectName == "doll") {
+        if (objectName == "NPC2") {
             announce("Correct. \nThere is something may help you in the North pool");
             Key1();
-            isDoll = false;
+            isNPC2 = false;
         }
         if (objectName == "NPC3") {
             if (getObjectIndex() == 35) {
@@ -55,7 +55,7 @@ public class Quizz_Events extends SuperEvent {
                 announce("Wrong, you can not pass");
 
             }
-        } else if (objectName == "doll") {
+        } else if (objectName == "NPC2") {
             if (Keys() == 0) {
                 announce("Wrong. Here is surprised for you");
                 setTeleport(52, 29);
