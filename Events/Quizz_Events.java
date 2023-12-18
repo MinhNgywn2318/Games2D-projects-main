@@ -32,7 +32,7 @@ public class Quizz_Events extends SuperEvent {
             Key1();
             isDoll = false;
         }
-        if (objectName == "NPC3") {
+        if (objectName == "monster") {
             if (getObjectIndex() == 35) {
                 announce("Very good. Maybe see you later");
                 nextState(gp.playState);
@@ -69,7 +69,7 @@ public class Quizz_Events extends SuperEvent {
         } else if (getObjectIndex() == 13 || getObjectIndex() == 14) {
             announce("Wrong.");
             setTeleport(15, 81);
-        } else if (objectName == "NPC3") {
+        } else if (objectName == "monster") {
             if (getObjectIndex() == 35) {
                 if (Keys() > 1 || (Keys() == 1 && (gp.object[31] != null || gp.object[29] != null))) {
                     announce("Wrong. You have a lot of keys, I will take your key.");
