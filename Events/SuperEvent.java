@@ -25,7 +25,7 @@ public class SuperEvent {
     public static int next_state;
     public static int max_announce;
     public static String annouces[];
-    public static boolean isDoll = true;
+    public static boolean isNPC2 = true;
     public static boolean isMan = true;
     public static boolean isMonster = true;
     private int index = 0;
@@ -231,7 +231,7 @@ public class SuperEvent {
 
     public void reset() {
         run = true;
-        isDoll = true;
+        isNPC2 = true;
         getObjects.setHaveToothpaste(false);
         isMan = true;
         isFirst = true;
