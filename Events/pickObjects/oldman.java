@@ -4,12 +4,12 @@ import java.util.Random;
 
 import Events.SuperEvent;
 
-public class oldman {
+public class NPC1 {
     private int i;
     private String[] announces =new String [10];
     private Random random = new Random();
 
-    public oldman() {
+    public NPC1() {
         setup();
     }
     public void set(pickObjects p,int index){
@@ -23,13 +23,13 @@ public class oldman {
                     p.clear();
                 }
                 else if (SuperEvent.player.speed == 3) {
-                    p.announce("Thank you. Here is spped power as gift");
+                    p.announce("Thank you. Here is speed power as gift");
                     p.ModeSpeed(1);
                     SuperEvent.gp.playSE("clear");
                     p.clear();
                 }
                 else if (SuperEvent.player.speed == 2&&SuperEvent.gp.object[30]!=null) {
-                    p.announce("Thank you. Here is spped power as gift");
+                    p.announce("Thank you. Here is speed power as gift");
                     p.ModeSpeed(1);
                     SuperEvent.gp.playSE("clear");
                     p.clear();
@@ -67,10 +67,10 @@ public class oldman {
     }
     public void setup(){
         announces[0] = "It is a good day";
-        announces[1] = "You should apply solid priciples";
+        announces[1] = "You should apply solid principles";
         announces[2] = "Sometimes number 1 in this world is better";
         announces[3] = "OOP is very easy. Do you agree with me ?";
-        announces[4] = "Here is a joke\nA man tells his doctor: “I’ m addicted to Twitter!” \n The doctor replies:“Sorry, I don’t follow you...” ";
+        announces[4] = "Here is a joke\nA man tells his doctor: “I’ m addicted to Twitter!” \n The doctor replies: “Sorry, I don’t follow you...” ";
     }
     public void random(){
         this.i = random.nextInt(5);
