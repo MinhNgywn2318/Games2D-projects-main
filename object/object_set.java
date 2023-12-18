@@ -9,23 +9,23 @@ public class object_set {
     }
     public void setup() 
     {
-        gp.object[0] = new object_potion2();
+        gp.object[0] = new object_poison();
         gp.object[0].worldX = 12*gp.tileSize;
         gp.object[0].worldY = 35*gp.tileSize;
 
-        gp.object[1] = new object_potion2();
+        gp.object[1] = new object_poison();
         gp.object[1].worldX = 10*gp.tileSize;
         gp.object[1].worldY = 37*gp.tileSize;
 
-        gp.object[2] = new object_potion2();
+        gp.object[2] = new object_poison();
         gp.object[2].worldX = 13*gp.tileSize;
         gp.object[2].worldY = 39*gp.tileSize;
 
-        gp.object[3] = new object_potion2();
+        gp.object[3] = new object_poison();
         gp.object[3].worldX = 50*gp.tileSize;
         gp.object[3].worldY = 8*gp.tileSize;
 
-        gp.object[4] = new object_potion2();
+        gp.object[4] = new object_poison();
         gp.object[4].worldX = 71*gp.tileSize;
         gp.object[4].worldY = 8*gp.tileSize;
 
