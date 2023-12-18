@@ -4,7 +4,7 @@ public class object_question extends SuperObject {
     public object_question(){
         name = "question";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("/picture/object/question.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("/picture/object/Question.png"));
         } catch (Exception e) {
             e.printStackTrace();
         }
