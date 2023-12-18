@@ -207,10 +207,10 @@ public class pickObjects extends SuperEvent {
 
         } else if (objectName == "NPC1"&&player.direction == "right") {
             NPC1.set(this,index);
-        } else if (objectName == "doll") {
-            if (isDoll == true) {
+        } else if (objectName == "NPC2") {
+            if (isNPC2 == true) {
                 gp.setGamestate( gp.quizzState);
-            } else if (isDoll == false) {
+            } else if (isNPC2 == false) {
                 announce("I can not help you anymore.");
             }
         } else if (objectName == "NPC3") {
