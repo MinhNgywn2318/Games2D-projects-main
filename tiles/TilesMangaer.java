@@ -91,6 +91,7 @@ public class TilesMangaer extends Tiles {
             setup(32,"32. Ground_3", false);
             setup(33,"33. Ground_4", false);
             setup(34, "34. Duck", true);
+            setup(120, "120. Leaf",true);
             
 
         }
