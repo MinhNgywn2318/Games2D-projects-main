@@ -1,0 +1,9 @@
+1. main
+    - add sound
+    - add text
+2. Draw
+    - draw magma pool-> add detection when hitting
+    - draw two object  keys
+3. Sub:
+    - optimize setup import image -> create new map
+    - extend map
