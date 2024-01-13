@@ -41,7 +41,7 @@ public class quizzState extends SuperUI {
 
 
         questions[3] = new setQuestions();
-        questions[3].text = "int a = 2 \n int b  = ++a + a; \n The result of b is 4  ";
+        questions[3].text = "Java is not an object-oriented programming language";
         questions[3].answer = false;
 
         questions[4] = new setQuestions();
