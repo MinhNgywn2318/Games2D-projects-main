@@ -61,16 +61,16 @@ public class quizzState extends SuperUI {
         questions[7].answer = true;
 
         questions[8] = new setQuestions();
-        questions[8].text = "A software Class or module should be open for \n modification but closed for extension  ";
+        questions[8].text = " An object can exist without being an instance of any class";
         questions[8].answer = false;
         
         questions[9] = new setQuestions();
-        questions[9].text = "public class Student {\n public void registerStudent() { // some logic } \n public void calculate_Student_Results() { // some logic }} \n This is a good desgin";
-        questions[9].answer = false;
+        questions[9].text = "The 'this' keyword in Java refers to the current instance of the class";
+        questions[9].answer = true;
         
         questions[10] = new setQuestions();
-        questions[10].text = "You can use overide method without exntending class"; 
-        questions[10].answer = true;
+        questions[10].text = "Static methods in Java belong to instances of a class"; 
+        questions[10].answer = false;
         
         questions[11] = new setQuestions();
         questions[11].text = "141570 can be devided by 5 "; 
