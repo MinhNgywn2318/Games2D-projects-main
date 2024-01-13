@@ -14,7 +14,7 @@ public class Quizz_Events extends SuperEvent {
     // }
 
     public void correct() {
-        if (objectName == "question") {
+        if (objectName.equals("question")) {
             if (getObjectIndex() == 13 || getObjectIndex() == 14) {
                 announce("Correct. Please choose a portal to pass");
                 gp.playSE("clear");
@@ -27,12 +27,12 @@ public class Quizz_Events extends SuperEvent {
 
             }
         }
-        if (objectName == "NPC2") {
+        if (objectName.equals("NPC2")) {
             announce("Correct. \nThere is something may help you in the North pool");
             Key1();
             isNPC2 = false;
         }
-        if (objectName == "NPC3") {
+        if (objectName.equals("NPC3")) {
             if (getObjectIndex() == 35) {
                 announce("Very good. Maybe see you later");
                 nextState(gp.playState);
@@ -47,7 +47,7 @@ public class Quizz_Events extends SuperEvent {
     }
 
     public void wrong() {
-        if (objectName == "question") {
+        if (objectName.equals("question")) {
             if (getObjectIndex() == 13 || getObjectIndex() == 14) {
                 announce("Wrong. Here is a surprise for you");
                 setTeleport(15, 81);
@@ -55,7 +55,7 @@ public class Quizz_Events extends SuperEvent {
                 announce("Wrong, you can not pass");
 
             }
-        } else if (objectName == "NPC2") {
+        } else if (objectName.equals("NPC2")) {
             if (Keys() == 0) {
                 announce("Wrong. Here is surprised for you");
                 setTeleport(52, 29);
@@ -69,7 +69,7 @@ public class Quizz_Events extends SuperEvent {
         } else if (getObjectIndex() == 13 || getObjectIndex() == 14) {
             announce("Wrong.");
             setTeleport(15, 81);
-        } else if (objectName == "NPC3") {
+        } else if (objectName.equals("NPC3")) {
             if (getObjectIndex() == 35) {
                 if (Keys() > 1 || (Keys() == 1 && (gp.object[31] != null || gp.object[29] != null))) {
                     announce("Wrong. You have a lot of keys, I will take your key.");
