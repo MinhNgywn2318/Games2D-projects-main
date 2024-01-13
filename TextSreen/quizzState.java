@@ -36,7 +36,7 @@ public class quizzState extends SuperUI {
         questions[1].answer = true; 
 
         questions[2] = new setQuestions();
-        questions[2].text = " High-level modules should depend on abstractions \n rather than concrete implementations";
+        questions[2].text = " Objects represent real-world entities in OOP";
         questions[2].answer = true;
 
 
