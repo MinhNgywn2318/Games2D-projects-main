@@ -28,8 +28,8 @@ public class quizzState extends SuperUI {
     public void setup() {
         // questions
         questions[0] = new setQuestions();
-        questions[0].text = "Final varible or final method can not be change";
-        questions[0].answer = true;// tfanswer
+        questions[0].text = "OOP stands for Object-Oriented Protocol";
+        questions[0].answer = false;// tfanswer
 
         questions[1] = new setQuestions();
         questions[1].text = "int a = 4%2 \n the result  a is 2 ";
