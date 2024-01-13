@@ -205,7 +205,7 @@ public class pickObjects extends SuperEvent {
                 teleport(14, 62, "down");
             }
 
-        } else if (objectName == "NPC1"&&player.direction == "right") {
+        } else if (objectName == "NPC1" && player.direction == "right") {
             NPC1.set(this,index);
         } else if (objectName == "NPC2") {
             if (isNPC2 == true) {
