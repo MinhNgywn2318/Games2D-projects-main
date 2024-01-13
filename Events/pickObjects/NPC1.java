@@ -6,7 +6,7 @@ import Events.SuperEvent;
 
 public class NPC1 {
     private int i;
-    private String[] announces =new String [10];
+    private String[] announces = new String [10];
     private Random random = new Random();
 
     public NPC1() {
@@ -29,7 +29,7 @@ public class NPC1 {
                     p.clear();
                 }
                 else if (SuperEvent.player.speed == 2&&SuperEvent.gp.object[30]!=null) {
-                    p.announce("Thank you. Here is speed power as gift");
+                    p.announce("Thank you. Here is spped power as gift");
                     p.ModeSpeed(1);
                     SuperEvent.gp.playSE("clear");
                     p.clear();
@@ -38,16 +38,16 @@ public class NPC1 {
 
         } else {
             if(SuperEvent.isMan){
-                if(p.isFirst && SuperEvent.gp.object[41]==null) {
+                if(p.isFirst&&SuperEvent.gp.object[41]==null) {
                     p.announce("Hello, there is something in the lava");
                         p.Key2();
                         p.isFirst= false;
                 }
-                else if(!p.isFirst && SuperEvent.gp.object[41]!=null) {
+                else if(!p.isFirst&&SuperEvent.gp.object[41]!=null) {
                     random();
                     p.announce(announces[i]);
                 }
-                else if(!SuperEvent.isNPC2 && (p.Keys()==0||p.Keys()==1) && p.gp.object[42]==null){
+                else if(!SuperEvent.isNPC2&&(p.Keys()==0||p.Keys()==1)&&p.gp.object[42]==null){
                     p.announce("You again. Here is your last key . \n I hope you do not lost it");
                     p.addKey();
                     SuperEvent.isMan = false;
@@ -67,10 +67,10 @@ public class NPC1 {
     }
     public void setup(){
         announces[0] = "It is a good day";
-        announces[1] = "You should apply solid principles";
+        announces[1] = "You should apply solid priciples";
         announces[2] = "Sometimes number 1 in this world is better";
         announces[3] = "OOP is very easy. Do you agree with me ?";
-        announces[4] = "Here is a joke\nA man tells his doctor: “I’ m addicted to Twitter!” \n The doctor replies: “Sorry, I don’t follow you...” ";
+        announces[4] = "Here is a joke\nA man tells his doctor: “I’ m addicted to Twitter!” \n The doctor replies:“Sorry, I don’t follow you...” ";
     }
     public void random(){
         this.i = random.nextInt(5);
