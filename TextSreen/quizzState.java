@@ -73,15 +73,15 @@ public class quizzState extends SuperUI {
         questions[10].answer = false;
         
         questions[11] = new setQuestions();
-        questions[11].text = "141570 can be devided by 5 "; 
-        questions[11].answer = true;
+        questions[11].text = "Composition in OOP is a way to model is-a relationships between classes"; 
+        questions[11].answer = false;
 
         questions[12] = new setQuestions();
-        questions[12].text = "The Top-most class in java is the superclass that you create "; 
+        questions[12].text = "Java supports multiple inheritance through class inheritance"; 
         questions[12].answer = false; 
 
         questions[13] = new setQuestions();
-        questions[13].text = " Molecules are smaller than electrons"; 
+        questions[13].text = " Constructors in Java can have a return type"; 
         questions[13].answer = false; 
 
        
