@@ -29,7 +29,7 @@ public class quizzState extends SuperUI {
         // questions
         questions[0] = new setQuestions();
         questions[0].text = "Final varible or final method can not be change";
-        questions[0].answer = true;// fanswer
+        questions[0].answer = true;// tfanswer
 
         questions[1] = new setQuestions();
         questions[1].text = "int a = 4%2 \n the result  a is 2 ";
