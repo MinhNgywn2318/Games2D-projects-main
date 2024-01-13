@@ -35,13 +35,11 @@ public class Quizz_Events extends SuperEvent {
         if (objectName.equals("NPC3")) {
             if (getObjectIndex() == 35) {
                 announce("Very good. Maybe see you later");
-                nextState(gp.playState);
-                clear_object();
             } else {
                 announce("Correct, you can pass me");
-                nextState(gp.playState);
-                clear_object();
             }
+            nextState(gp.playState);
+            clear_object();
         }
 
     }
