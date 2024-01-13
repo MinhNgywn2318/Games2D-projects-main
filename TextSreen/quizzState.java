@@ -49,7 +49,7 @@ public class quizzState extends SuperUI {
         questions[4].answer = false;
         
         questions[5] = new setQuestions();
-        questions[5].text = "You can extends abstract class \n without using abstract methods";
+        questions[5].text = "Abstract classes in Java can be instantiated";
         questions[5].answer = false;
 
         questions[6] = new setQuestions();
