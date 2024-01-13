@@ -6,7 +6,7 @@ public class NPC1 extends SuperObject{
     public NPC1(){
         name = "NPC1";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("/picture/NPC_1.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("/picture/object/NPC1.png"));
         } catch (Exception e) {
             e.printStackTrace();
         } 
