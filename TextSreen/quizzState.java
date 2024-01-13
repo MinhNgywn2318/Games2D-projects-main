@@ -57,7 +57,7 @@ public class quizzState extends SuperUI {
         questions[6].answer = false;
 
         questions[7] = new setQuestions();
-        questions[7].text = "1+5=6";
+        questions[7].text = "The 'super' keyword in Java is used to call \n the constructor of the superclass.";
         questions[7].answer = true;
 
         questions[8] = new setQuestions();
