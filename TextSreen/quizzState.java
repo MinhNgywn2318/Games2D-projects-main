@@ -53,8 +53,8 @@ public class quizzState extends SuperUI {
         questions[5].answer = false;
 
         questions[6] = new setQuestions();
-        questions[6].text =  "Client should be forced to depend on methods it does not use";
-        questions[6].answer = true;
+        questions[6].text =  "Interfaces in Java can have method implementations";
+        questions[6].answer = false;
 
         questions[7] = new setQuestions();
         questions[7].text = "1+5=6";
