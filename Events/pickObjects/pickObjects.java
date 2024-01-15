@@ -22,14 +22,14 @@ public class pickObjects extends SuperEvent {
         if (objectName == "key") {
             if (index == 23) {
                 gp.playSE("coin");
-                announce("This is a fake key :))");
+                announce("This is a fake key. Please find another one.");
                 clear();
 
             } else if (index == 37) {
                 gp.playSE("coin");
 
-                announce("It is a fake key. Please find another one.");
-                setTeleport(39, 24);
+                announce("You have been hit by the curse.");
+                setTeleport(42, 26);
                 clear();
 
             } else {
