@@ -107,7 +107,7 @@ public class pickObjects extends SuperEvent {
             }
 
             if (index == 33) {
-                announce("You got a toothpaste");
+                announce("You got a treasure.");
                 gp.playSE("chest");
 
                 haveToothpaste = true;
