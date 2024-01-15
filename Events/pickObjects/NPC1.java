@@ -29,7 +29,7 @@ public class NPC1 {
                     p.clear();
                 }
                 else if (SuperEvent.player.speed == 2&&SuperEvent.gp.object[30]!=null) {
-                    p.announce("Thank you. Here is spped power as gift");
+                    p.announce("Thank you. Here is speed power as gift");
                     p.ModeSpeed(1);
                     SuperEvent.gp.playSE("clear");
                     p.clear();
