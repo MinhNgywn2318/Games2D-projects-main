@@ -28,7 +28,7 @@ public class pickObjects extends SuperEvent {
             } else if (index == 37) {
                 gp.playSE("coin");
 
-                announce("This is cures key. Not the real one :))). Here its curse");
+                announce("It is a fake key. Please find another one.");
                 setTeleport(39, 24);
                 clear();
 
