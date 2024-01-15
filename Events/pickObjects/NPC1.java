@@ -15,7 +15,7 @@ public class NPC1 {
     public void set(pickObjects p,int index){
         if (index == 32) {
             if (!p.isHaveToothpaste()) {
-                p.announce("I lost the key. Can you please find it ?");
+                p.announce("I lost my treasure. Can you please find it ?");
             } else {
                 if (SuperEvent.player.speed == 4) {
                     p.announce("Thank you. Have a nice day.");
